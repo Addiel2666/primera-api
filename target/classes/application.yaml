@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: primera-api
+
+app:
+  service:
+    endpoint: http://localhost:8080/api/transaccion/guardar
+    secretkey: 12345678901234567890123456789012
+
+server:
+  port: 8181
